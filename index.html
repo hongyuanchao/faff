@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>个人介绍</title>
+    <meta name="description" content="我是一名热爱设计的00后，强迫症，懒癌晚期，热衷于计算机，原画插画板绘，平面设计，家居设计，小游戏研发等，拥有白日梦想，和一腔热血，请多指教！">
+    <meta name="keywords" content="关于我">
+    <link rel="icon" type="image/ico" href="//sdn.geekzu.org/avatar/4cc893d113dd74ceca73f9863f2c5446/">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+
+</head>
+
+<body>
+    <div id="main" class="container">
+        <div class="row my-card justify-content-center">
+            <div class="col-lg-4 photo-bg"></div>
+            <div class="col-lg-8 card">
+                <h1>关于我</h1>
+                <p>我是一名热爱设计的00后，二次元爱好者，强迫症，懒癌晚期，热衷于计算机，原画插画板绘，平面设计，家居设计，小游戏研发等，拥有白日梦想，和一腔热血，请多指教！
+                </p>
+                <p>
+                    我很喜欢的一句诗：<br>为人性僻耽佳句，语不惊人死不休<br> ————《江上值水如海势聊短述》
+
+                </p>
+
+                <p>最后祝光临本网站的小可爱早日脱单:</p>
+                <div class="row">
+                    <button id="kaygb-blog" class="btn btn-primary col-lg-4">首页</button>
+                    <a href="https://hongyuanchao.github.io/clock/" id="kaygb-blog-a" target="_blank" class="btn btn-primary col-lg-4">首页</a>
+                    <a href="https://hongyuanchao.github.io/faff/" target="_blank" class="btn btn-secondary col-lg-4">个人信息</a>
+                    <a href="https://www.bilibili.com/" target="_blank" id="kaygb-mail-a" class="btn btn-success col-lg-4">哔哩哔哩</a>
+                    <button id="kaygb-mail" class="btn btn-success col-lg-4">哔哩哔哩</button>
+                </div>
+
+
+                
+                <footer>
+                    <p>我的 <a href="https://mail.qq.com/" target="_blank">QQ邮箱</a> <a href="https://mail.qq.com/" target="_blank">1332292034@qq.com</a>   
+                    </p>
+                    </p>
+
+                </footer>
+            </div>
+        </div>
+
+    </div>
+    <div id="aplayer" class="aplayer" data-order="random" data-id="20173709" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8"></div>
+    <!-- aplayer -->
+
+
+
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+    <!-- end_aplayer -->
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script defer src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/layer/layer.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/js/v3.js"></script>
+    <script>
+        //弹出一个页面层
+        $('#kaygb-blog').on('click', function() {
+            layer.open({
+                type: 2,
+                title: 'Kaygb',
+                shadeClose: true,
+                shade: false,
+                maxmin: true, //开启最大化最小化按钮
+                area: ['80%', '100%'],
+                content: "https://hongyuanchao.github.io/clock/"
+            });
+        });
+        $('#kaygb-mail').on('click', function() {
+            layer.open({
+                type: 2,
+                title: 'Mail',
+                shadeClose: true,
+                shade: false,
+                maxmin: true, //开启最大化最小化按钮
+                area: ['80%', '100%'],
+                content: "https://www.bilibili.com/"
+            });
+        });
+    </script>
+
+</html>
